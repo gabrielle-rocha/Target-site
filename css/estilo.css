@@ -330,53 +330,18 @@ html{
 /*projetos fim*/
 
 /*equipe*/
-.equipe .slide{
-    position: relative;
-    margin-bottom: 4rem;
-    overflow: hidden;
-}
+.equipe .row{
+    display: flex;
+    width: 100%; /* Define a largura máxima para evitar que os cards se espalhem demais */
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center;
 
-.equipe .slide img{
-    height: 35rem;
-    width: 100%;
-    object-fit: cover;
-    border-radius: .5rem;
 }
-
-.equipe .slide h3{
-    margin-top: 1.5rem;
-    font-size: 2rem;
-    text-align: center;
-    color: var(--preto);
-}
-
-.equipe .slide:hover .share{
-    left: 2rem;
-    cursor: pointer;
-}
-
-.equipe .slide .share{
-    position: absolute;
-    top: 1rem; left: -10rem;
-}
-
-.equipe .slide .share a{
-    display: block;
-    margin-top: 1rem;
-    margin-left: auto;
-    height: 4.9rem;
-    width:  4.9rem;
-    line-height: 4.9rem;
-    border-radius: 5rem;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: var(--branco);
-    text-align: center;
-    font-size: 3rem;
-}
-
-.equipe .slide .share a:hover{
-    background-color: rgba(59, 59, 59, 0.3);
-    color: var(--tom);
+.equipe .row .card img{
+    width:  130px;
+    height: auto;
+    border-radius: 5%;
 }
 
 /*equipe fim*/

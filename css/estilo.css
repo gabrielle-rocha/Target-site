@@ -428,6 +428,11 @@ background-color: rgba(0, 0, 0, 0.3);
 .footer .credito span{
     color: var(--subtom);
 }
+
+.footer .etec{
+    font-size: 2rem;
+}
+
 /*footer fim*/
 
 section{
